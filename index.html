@@ -22,9 +22,9 @@
         changeName(){
           this.setState({name : "TOTO"});    
         }
-        render() {
+        render() {e
           return (
-            <h1 style={{color: this.props.color}} onClick={this.changeName}>Hetllo, {this.state.name}!</h1>
+            <h1 style={{color: this.props.color}} onClick={this.changeName}>Hello, {this.state.name}!</h1>
           );
         }
       }
